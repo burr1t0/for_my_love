@@ -116,7 +116,7 @@ function initializeContentWithGlitch() {
             <div class="photo-caption">31 июля 2025<br>Тот самый день</div>
         </div>
         <div class="photo-item">
-            <img src="images/2.HEIC" alt="Фото" onerror="this.src='https://via.placeholder.com/300/ffd1d1/ff8a8a?text=❤️'">
+            <img src="images/2.jpg" alt="Фото" onerror="this.src='https://via.placeholder.com/300/ffd1d1/ff8a8a?text=❤️'">
             <div class="photo-caption">9 августа 2025<br>Милая прогулка</div>
         </div>
         <div class="photo-item">
@@ -128,15 +128,15 @@ function initializeContentWithGlitch() {
             <div class="photo-caption">14 августа 2025<br>Обязательно надо поплавать на лодке)</div>
         </div>
         <div class="photo-item">
-            <img src="images/5.HEIC" alt="Фото" onerror="this.src='https://via.placeholder.com/300/ffd1d1/ff8a8a?text=❤️'">
+            <img src="images/5.jpg" alt="Фото" onerror="this.src='https://via.placeholder.com/300/ffd1d1/ff8a8a?text=❤️'">
             <div class="photo-caption">22 августа 2025<br>Тот уютный вечер</div>
         </div>
         <div class="photo-item">
-            <img src="images/6.HEIC" alt="Фото" onerror="this.src='https://via.placeholder.com/300/ffd1d1/ff8a8a?text=❤️'">
+            <img src="images/6.jpg" alt="Фото" onerror="this.src='https://via.placeholder.com/300/ffd1d1/ff8a8a?text=❤️'">
             <div class="photo-caption">31 августа 2025<br>Я очень тебя люблю!</div>
         </div>
         <div class="photo-item">
-            <img src="images/7.heic" alt="Фото" onerror="this.src='https://via.placeholder.com/300/ffd1d1/ff8a8a?text=❤️'">
+            <img src="images/7.jpg" alt="Фото" onerror="this.src='https://via.placeholder.com/300/ffd1d1/ff8a8a?text=❤️'">
             <div class="photo-caption">9 декабря 2025<br>Холодный город</div>
         </div>
         <div class="photo-item">
@@ -144,7 +144,7 @@ function initializeContentWithGlitch() {
             <div class="photo-caption">31 декабря 2025<br>А вот и новый год</div>
         </div>
         <div class="photo-item">
-            <img src="images/9.HEIC" alt="Фото" onerror="this.src='https://via.placeholder.com/300/ffd1d1/ff8a8a?text=❤️'">
+            <img src="images/9.jpg" alt="Фото" onerror="this.src='https://via.placeholder.com/300/ffd1d1/ff8a8a?text=❤️'">
             <div class="photo-caption">6 января 2026<br>Тут просто милашки</div>
         </div>
     `;
