@@ -113,7 +113,7 @@ function initializeContentWithGlitch() {
     photoGrid.innerHTML = `
         <div class="photo-item">
             <img src="images/1.JPG" alt="Фото" onerror="this.src='https://via.placeholder.com/300/ffd1d1/ff8a8a?text=❤️'">
-            <div class="photo-caption">31 июля 2025<br>Тот самый день</div>
+            <div class="photo-caption">31 июля 2025<br>Та самая ночь</div>
         </div>
         <div class="photo-item">
             <img src="images/2.jpg" alt="Фото" onerror="this.src='https://via.placeholder.com/300/ffd1d1/ff8a8a?text=❤️'">
@@ -129,7 +129,7 @@ function initializeContentWithGlitch() {
         </div>
         <div class="photo-item">
             <img src="images/5.jpg" alt="Фото" onerror="this.src='https://via.placeholder.com/300/ffd1d1/ff8a8a?text=❤️'">
-            <div class="photo-caption">22 августа 2025<br>Тот уютный вечер</div>
+            <div class="photo-caption">22 августа 2025<br>Уютный вечер</div>
         </div>
         <div class="photo-item">
             <img src="images/6.jpg" alt="Фото" onerror="this.src='https://via.placeholder.com/300/ffd1d1/ff8a8a?text=❤️'">
@@ -173,7 +173,7 @@ function initializeContentWithGlitch() {
             "Ты самая умная, красивая и добрая девушка на свете.",
             "Ты просто ослепительна!",
             "Когда ты улыбаешься, внутри меня все замирает.",
-            "Твой смех звучит как самая красивая музыка.",
+            "Твои объятия лечат быстрее любого врача.",
             "С тобой я чувствую себя самим собой.",
             "Ты — моё любимое утро и самый тёплый вечер."
         ];
