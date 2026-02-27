@@ -12,13 +12,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 });
 
-// Функция для подсчета полных месяцев
 function getMonthsCount() {
-    const startDate = new Date('2025-07-28');
+    const startDate = new Date('2025-07-28T00:00:00+03:00');
     const now = new Date();
+    const mskTime = new Date(now.toLocaleString('en-US', { timeZone: 'Europe/Moscow' }));
 
-    let years = now.getFullYear() - startDate.getFullYear();
-    let months = now.getMonth() - startDate.getMonth();
+    let years = mskTime.getFullYear() - startDate.getFullYear();
+    let months = mskTime.getMonth() - startDate.getMonth();
 
     return years * 12 + months;
 }
@@ -263,13 +263,16 @@ function initializeContentWithGlitch() {
     }, 2000);
 }
 
-// Функция счетчика
+// Функция счетчика с фиксом на МСК
 function updateCounter() {
     // ВАЖНО: ИЮЛЬ!
-    const startDate = new Date('2025-07-28');
-    const now = new Date();
+    const startDate = new Date('2025-07-28T00:00:00+03:00'); // Явно указываем МСК
 
-    const diffInMilliseconds = now - startDate;
+    // Получаем текущее время в МСК
+    const now = new Date();
+    const mskTime = new Date(now.toLocaleString('en-US', { timeZone: 'Europe/Moscow' }));
+
+    const diffInMilliseconds = mskTime - startDate;
 
     const days = Math.floor(diffInMilliseconds / (1000 * 60 * 60 * 24));
     const hours = Math.floor((diffInMilliseconds / (1000 * 60 * 60)) % 24);
